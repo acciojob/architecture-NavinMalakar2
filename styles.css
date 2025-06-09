@@ -1,1 +1,61 @@
 /*  your css code here. If applicable */
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 1100px;
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .imageContainer {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .imageContainer img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      vertical-align: top;
+      padding: 10px;
+    }
+
+    td img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .col200 {
+      width: 200px;
+    }
+
+    .col600 {
+      width: 600px;
+    }
+
+    .text-column {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
